@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    font-family: 'Figtree';
+    background-color: var(--Yellow);   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 100%;
+    padding: 20px;
+    background-color: var(--White);
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 10px 10px var(--Black);
+}
+
+.card .img-card{
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+
+/* Melhorar o widht do botton */
+.card .tag{
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-right: 65%;
+    background-color: var(--Yellow);
+}
+
+.card .post-date{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card .foundations{
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--Black);
+    margin: 20px 0 20px 0;
+}
+
+.card .foundations:hover{
+    color: var(--Yellow);
+}
+
+.card .post-description{
+    font-size: 16px;
+    color: var(--Grey);
+    font-weight: 600;
+}
+
+.card .post-creator{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.post-creator .img-creator{
+    width: 42px;
+    height: 42px;
+}
+
+.post-creator .name-creator{
+    margin-inline: 10px;
+    font-weight: 800;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+}
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
